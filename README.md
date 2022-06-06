@@ -1,10 +1,7 @@
 # ETHERSCAN_app
 Program is written in Python language version 3.10. 
 Used software: WIN 10.
-For program to run, those features must be installed:
-  py -3 -m pip install web3
-  py -3 -m pip install infura
-  py -3 -m pip install ccxt
+For program to run, those features must be installed: py -3 -m pip install web3, py -3 -m pip install infura, py -3 -m pip install ccxt.
 
 I utilized API service through Infura, made here an account for access to Ethereum network. My Infura URL is still open so you don’t have to modify it. For Ethereum node library I choose web3.py. I do not run node on my computer, so that was one of the choices how to speak with Ethereum blockchain. 
 After all of this is installed (I hope I didn’t forget something-if so, do not hesitate to contact me) you can run the program.
