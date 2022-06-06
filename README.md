@@ -16,7 +16,7 @@ The program asks you to input Block number (GIVEN BLOCK NUMBER:) which you want 
 When calculation starts, console shows: start calculating
 When calculation is in progress, console shows: calculating…<transaction hash>
 The program is running and calculating-try to find in the blockchain if there was an interaction with this address in the given block. Program is looking for each transaction hash in the given block and try to find if there was withdrawal to or deposit from given address. 
-If program finds there was interaction with given address, it then looks at the transaction hash on which place it was and collect information about. Program finds if the address was recipient or sender. At the end of calculation there are information about:
+If program finds there was interaction with given address, it then looks at the transaction hash - on which place it is and collect information about. Program finds if the address was recipient or sender. At the end of calculation there are information about:
 -	Current ETH price in USD
 -	Current block number
 -	Given ETH address 
@@ -28,8 +28,8 @@ Printout collects information about:
 - on which place in block was transaction observed (transaction hash)
 - who was SENDER and who RECIPIENT (depending if it was withdrawal or deposit)
 - transaction value in ETH
-- transaction costs in ETH (total gas)
+- transaction costs in ETH (total cost included GAS)
 
 When calculation is finish it shows: calculation finished
 
-If there is no WITHDRAWALS or DEPOSITS there is nothing at the end. If there was transaction made for any other token than ETH in ERC20 network the transaction value would be: 0. Any other information will be visible. 
+If there is no results of WITHDRAWALS or DEPOSITS at the end it means at given block there was nnot interraction with given address. If there was transaction made for any other token than ETH in ERC20 network the transaction value would be: 0. Any other information will be visible. 
