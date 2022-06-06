@@ -1,5 +1,6 @@
 # ETHERSCAN_app
 Program is written in Python language version 3.10. 
+Used software: wIN 10.
 For program to run, those features must be installed:
 py -3 -m pip install web3
 py -3 -m pip install infura
